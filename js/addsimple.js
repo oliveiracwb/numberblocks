@@ -17,7 +17,7 @@ drake.on('drop', function(el, target, source, sibling){
   let total = increaseTotal(amount);
   target.innerHTML = '';
   if(total >= 0){
-    if(total <= 20){
+    if(total <= 60){
       el.id = 'nb' + total;
       el.src = 'images/nb' + total + '.png';
     }else{
